@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="greenpic.png" alt="pic">
+        <div class="name-container">
+            <h1 class="name">myLogo</h1>
+        </div>  
+    </div>
+
+    <div class="formcontainer">
+        <div class="form">
+            <form action="index.html" method="post">
+                <h1>Let's do this!</h1>
+                <div class="form">
+                    <div class="row">
+                        <div class="inp">
+                            <input type="text" id="first-name" name="first-name" placeholder="FIRST NAME" required>
+                        </div>
+                        <div class="inp">
+                            <input type="text" id="last-name" name="last-name" placeholder="LAST NAME" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="inp">
+                            <input type="email" name="email" id="email" placeholder="EMAIL" required>
+                        </div>
+                        <div class="inp">
+                            <input type="tel" name="phone-number" id="phone-number" placeholder="PHONE NUMBER" minlength="10" maxlength="10" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="inp">
+                            <input type="password" name="password" id="password" placeholder="PASSWORD" required>
+                        </div>
+                        <div class="inp">
+                            <input type="password" name="confirm-password" id="confirm-password" placeholder="CONFIRM PASSWORD" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

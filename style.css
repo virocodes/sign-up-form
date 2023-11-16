@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    gap: 100px;
+    margin: 0;
+    overflow: hidden;
+    background-color: #23283f;
+    color: white;
+    font-family: sans-serif;
+}
+
+.logo {
+    overflow: hidden;
+    position: relative;
+}
+
+img {
+    height: 100vh;
+    z-index: -1;
+}
+
+.name-container {
+    position: absolute;
+    width: 100%;
+    left: 1rem;
+    top: 1rem;
+}
+
+.name {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50%;
+}
+
+p {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    gap: 200px;
+}
+
+.inp {
+    display: flex;
+    flex-direction: column;
+}
+
+.form { 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(81, 81, 81);
+    background-color: #232D3F;
+    color: white;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #22B472;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+::placeholder {
+    color: gray;
+    opacity: 1;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p {
+    color: gray;
+}
+
+p > a {
+    color: #22B472;
+    text-decoration: none;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: #22B472;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
